@@ -867,12 +867,12 @@ background-color: unset;
     align-items: flex-start;
 }
 #n-slide-1 {
-    background: url("https://thomasyates.github.io/website1/images/floydsbackground.png") no-repeat center center;
+    background: url(.../images/floydsbackground.png) no-repeat center center;
     background-size: cover;
     background-position: center center;
 }
 #n-slide-2 {
-    background: url("https://thomasyates.github.io/website1/images/pictureback2.png") no-repeat center center;
+    background: url(.../images/pictureback2.png) no-repeat center center;
     background-size: cover;
     background-position: center center;
 }
@@ -912,7 +912,7 @@ background-color: unset;
 /* remade picture slider */
 
 .picture1-con {
-    background-image: url("https://thomasyates.github.io/website1/images/floydsbackground.png");
+    background-image: url(.../images/floydsbackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -921,7 +921,7 @@ background-color: unset;
     position: absolute;
 }
 .picture2-con {
-    background-image: url("https://thomasyates.github.io/website1/images/pictureback2.png");
+    background-image: url(.../images/pictureback2.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
