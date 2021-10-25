@@ -1030,7 +1030,7 @@ a {
     height: 100%;
     width: 100%;
     z-index: -1;
-    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,0)), url(images/lsimg.png);
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0), rgba(0,0,0,0)), url('../images/lsimg.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
