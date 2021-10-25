@@ -109,7 +109,7 @@ function menuSlide(a) {
 function menuUnslide() {
     menuUl.classList.remove("active-tab");
     categoryBar.children[0].style.marginRight = "0%";
-    categoryBar.children[1].style.right = "20px";
+    categoryBar.children[1].style.right = "35px";
     categoryBar.children[1].style.width = "auto";
     if (currentA != null) {
         currentA.style.backgroundColor = "inherit"; 
