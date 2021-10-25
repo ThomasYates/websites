@@ -21,41 +21,6 @@ ul {
     justify-content: center;
     align-items: center;
 }
-
-
-
-/* Return to main button */
-.return {
-    position: fixed;
-    z-index: 9999999999999999999;
-    top: 0;
-    right: 10px;
-    opacity: 0.9;
-}
-.return button {
-    height: 40px;
-    width: 80px;
-    background-color: #69D6C6;
-    border: 2px #000 solid;
-    color: #fff;
-    cursor: pointer;
-}
-.return button a {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-/* Maybe move to Floyds */
-@media (max-width:550px) {
-    .return {
-        top: unset;
-        bottom: 10px;
-    }
-} 
-
 @import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
 :root {
     --screen-max: 1300px;
@@ -213,7 +178,7 @@ a {
 .close-bar {
     position: absolute;
     top: 0px;
-    right: 20px;
+    right: 35px;
     font-size: 12px;
     display: flex;
     align-items: center;
@@ -574,7 +539,7 @@ a {
 }
 .nav-bottom-ul li a {
     color: #8b0000;
-    font-size: 14px;
+    font-size: 10px;
     letter-spacing: 1px;
     transition: all 0.2s ease;
 }
@@ -634,8 +599,8 @@ a {
     transition: all 0.2s ease;
 }
 .sub-d-text h2 {
-    font-size: 26px;
-    font-weight: 400;
+    font-size: 8px;
+    font-weight: 600;
     letter-spacing: 1px;
     line-height: 28px;
     margin-top: 5px;
@@ -675,7 +640,7 @@ a {
     grid-column: 1 / span 2;
 }
 .main-grid-ul li:first-child a h3 {
-    font-size: 28px;
+    font-size: 16px;
     background-color: #0b0b0b8c;
 }
 .main-grid-ul li a {
@@ -693,13 +658,15 @@ a {
     background-color: #0b0b0ba9;
     color: #fff;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
 }
 .main-grid-ul li a img {
     width: 100%;
 }
 
-
+h3 {
+    font-size: 16px;
+}
 /* Sliding box */
 .sliding-box { 
     margin-top: 5px;
@@ -753,7 +720,7 @@ a {
     padding: 10px;
     background-color: #0b0b0bb7;
     color: #fff;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 
@@ -1145,7 +1112,7 @@ a {
     color: #0B0B0B;
     font-weight: 300;
     letter-spacing: 2px;
-    font-size: 18px;
+    font-size: 12px;
     margin: 5px 15px 15px 15px;
 }
 .cl-head .line {
@@ -1226,8 +1193,9 @@ a {
 .trophy-head h3 {
     color: #0B0B0B;
     font-weight: 400;
-    letter-spacing: 2px;
-    font-size: 18px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
 }
 .trophy-head-in {
     width: 100%;
@@ -1240,9 +1208,9 @@ a {
     transform: rotate(180deg);
 }
 .trophy-head h2 {
-    width: 100%;
+    width: 200%;
     color: #0B0B0B;
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     font-weight: 400;
 }
@@ -1270,8 +1238,8 @@ a {
     margin-top: 5px;
 }
 .trophy-ul li h2 {
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 600;
     letter-spacing: 1px;
     margin-top: 15px;
 }
@@ -1388,7 +1356,7 @@ a {
     color: #fff;
     font-weight: 700;
     font-family: 'Karantina', cursive;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 
@@ -1401,6 +1369,7 @@ a {
     width: 100%;
     max-width: var(--screen-max);
     justify-content: space-between;
+    margin: 0px 20px;
 }
 .motto-box {
     width: 50%;
@@ -1412,7 +1381,7 @@ a {
     color:  rgb(165, 223, 50);
 }
 .side-section-pn {
-    font-size: 20px;
+    font-size: 18px;
     width: 25%;
     height: 100%;
 }
@@ -1569,13 +1538,32 @@ ul li a:hover > .text-box-cat {
     text-decoration: underline;
     color: #fff;
 }
+.category-ul li a .text-box-cat h3 {
+    font-size: 10px;
+}
+.nav-bottom-ul li a h3 {
+    font-size: 12px;
+    text-align: center;
+}
 
-@media (min-width: 438px) {
-    .nav-bottom-ul li:last-of-type {
-        display: flex;
+@media screen and (min-width: 438px) {
+    .sub-d-text h2 {
+        font-size: 12px;
     }
 }
-@media(min-width: 600px) {
+@media screen and (min-width:570px) {
+    .sub-d-text h2 {
+        font-size: 14px;
+    }
+    .trophy-head h2{
+        font-size: 22px;
+    }
+    .trophy-head h3 {
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 600px) {
     .newsletter-wrap {
         background-image: url(/website4/images/backgroundgreysmudge.png);
         background-position: center;
@@ -1612,13 +1600,8 @@ ul li a:hover > .text-box-cat {
     .trophy-ul li p {
         font-size: 16px;
     }
-    .trophy-head h3,
-     {
-        font-size: 20px;
-    }
-    .trophy-head h2,
     .cl-head h2 {
-        font-size: 34px;
+        font-size: 26px;
         width: 100%;
     }
     .cl-head .line {
@@ -1720,11 +1703,8 @@ ul li a:hover > .text-box-cat {
         transition: all 0.2s ease;
     }
     .category-ul li a .text-box-cat h2 {
-        font-size: 26px;
+        font-size: 14px;
         font-weight: 400;
-    }
-    .category-ul li a .text-box-cat h3 {
-        font-size: 20px;
     }
     .showmore {
         display: none;
@@ -1740,17 +1720,64 @@ ul li a:hover > .text-box-cat {
     }.cat-head img {
         width: 36px;
     }
+    .cl-head p {
+        font-size: 18px;
+    }
 }
-
-@media (min-width:800px) {
+@media screen and (min-width:660px) {
+    .category-ul li a .text-box-cat h3 {
+        font-size: 12px;
+    }
+    .nav-bottom-ul li a h3 {
+        font-size: 16px;
+    }
+    .nav-bottom-ul li:last-of-type {
+        display: flex;
+    } 
+    .trophy-head h3 {
+        font-size: 14px;
+    }
+    .trophy-head h2 {
+        font-size: 26px;
+        width: 100%;
+    }
+}
+@media screen and (min-width:700px) {
+    .trophy-head h3 {
+        font-size: 16px;
+    }
+    .trophy-ul li h2 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+@media screen and (min-width:800px) {
     .cl-box-item {
         width: 23.333vw;
     }
     .cl-long-box {
         margin-left: 26px;
     }
+    .nav-bottom-ul li a {
+        font-size: 14px;
+    }
+    .trophy-head h3, .cl-head p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .trophy-ul li h2 {
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
 }
-@media (min-width:980px) {
+@media screen and (min-width:980px) {
+    .trophy-head h3, .cl-head p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
     .expansion-con {
     flex-direction: row;
     align-items: flex-start;
@@ -1797,11 +1824,6 @@ ul li a:hover > .text-box-cat {
     .trophy-head h2,
     .cl-head h2 {
         font-size: 42px;
-    }
-    .trophy-head h3,
-    .cl-head p {
-        font-size: 28px;
-        font-weight: 300;
     }
     .trophy-head img,
     .cl-head img,
@@ -1879,9 +1901,9 @@ ul li a:hover > .text-box-cat {
     }
     .main-grid-ul li a h3,
     .main-grid-ul li:first-child a h3 {
-        font-size: 26px;
+        font-size: 14px;
         background-color: #0b0b0be0;
-        line-height: 24PX;
+        line-height: 24px;
     }
     .peepo-logo {
         display: flex;
@@ -1948,6 +1970,7 @@ ul li a:hover > .text-box-cat {
     .menu-ul li h3 {
         margin-left: 0px;
         padding: 6px 0px 1px 0px;
+        font-size: 10px;
     }
     .arrow::before,
     .arrow::after {
@@ -2007,7 +2030,7 @@ ul li a:hover > .text-box-cat {
     .menu-ul li .e-m-ul li h3 {
         margin-left: 10px;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 14px;
         text-shadow: 1px 1px #000;
     }
     .main-li-el h3 {
@@ -2064,9 +2087,45 @@ ul li a:hover > .text-box-cat {
     .e-f-t {
         cursor: initial;
     }
+    .side-section-pn {
+        font-size: 14px;
+    }
+    .sub-d-text h2 {
+        font-size: 18px;
+    }
+@media screen and (min-width:1000px) {
+    .category-ul li a .text-box-cat h2 {
+        font-size: 26px;
+    }
+    .category-ul li a .text-box-cat h3 {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:1100px) {
+    .menu-ul li h3 {
+        font-size: 12px;
+    }
+    .menu-ul li .e-m-ul li h3 {
+        font-size: 16px;
+    }
+    .trophy-head h3, .cl-head p {
+        font-size: 28px;
+        font-weight: 300;
+    }
 }
 
-@media (min-width:1300px) {
+@media screen and (min-width:1226px) {
+    .menu-ul li h3 {
+        font-size: 14px;
+    }
+    .sub-d-text h2 {
+        font-size: 26px;
+    }
+    .side-section-pn {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:1300px) {
     .category-ul {
         grid-template-columns: repeat(8, 1fr);
     }
@@ -2075,5 +2134,8 @@ ul li a:hover > .text-box-cat {
     }
     .cl-long-box {
         margin-left: 260px;
+    }
+    .menu-ul li .e-m-ul li h3 {
+        font-size: 20px;
     }
 }
