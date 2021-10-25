@@ -867,12 +867,12 @@ background-color: unset;
     align-items: flex-start;
 }
 #n-slide-1 {
-    background: url(/website1/images/floydsbackground.png) no-repeat center center;
+    background: url(images/floydsbackground.png) no-repeat center center;
     background-size: cover;
     background-position: center center;
 }
 #n-slide-2 {
-    background: url(/website1/images/pictureback2.png) no-repeat center center;
+    background: url(images/pictureback2.png) no-repeat center center;
     background-size: cover;
     background-position: center center;
 }
