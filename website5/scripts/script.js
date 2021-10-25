@@ -95,14 +95,8 @@ basket.addEventListener('click', function() {
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            if (inBox == false) {
-                setTimeout(function(){
                 wheaty.classList.add('anim-wheat');
                 console.log('in-box');
-                },100);
-            } else {
-                inBox = false;
-            };
         };
     });
 });
