@@ -29,7 +29,7 @@ body {
     color: #fff;
     font-family: 'Karantina', cursive;
     background-color: #cccccc;
-    background-image: url(/website4/images/backgroundspeckleblack.png);
+    background-image: url(images/backgroundspeckleblack.png);
 }
 a {
     text-decoration: none;
@@ -39,7 +39,7 @@ a {
 .nav {
     width: 100%;
     background-color: #000;
-    background-image: url(/website4/images/backgroundspeckle.png);
+    background-image: url(images/backgroundspeckle.png);
     flex-direction: column;
     padding: 0px;
 }
@@ -1044,7 +1044,7 @@ h3 {
     height: 20px;
     position: relative;
     width: 20px;
-    background-image: url(/website4/images/star.png);
+    background-image: url(images/star.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1258,7 +1258,7 @@ h3 {
 .foot-outer {
     width: 100%;
     background-color: #0B0B0B;
-    background-image: url(/website4/images/backgroundspeckle.png);
+    background-image: url(images/backgroundspeckle.png);
 }
 .foot-inner {
     width: 100%;
@@ -1565,7 +1565,7 @@ ul li a:hover > .text-box-cat {
 }
 @media screen and (min-width: 600px) {
     .newsletter-wrap {
-        background-image: url(/website4/images/backgroundgreysmudge.png);
+        background-image: url(images/backgroundgreysmudge.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1681,7 +1681,7 @@ ul li a:hover > .text-box-cat {
     .category-ul li {
         height: 100%;
         background-color: transparent;
-        background-image: url(/website4/images/squaregreysmudge.png);
+        background-image: url(images/squaregreysmudge.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
