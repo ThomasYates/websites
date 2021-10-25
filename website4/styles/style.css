@@ -2095,10 +2095,10 @@ ul li a:hover > .text-box-cat {
     }
 @media screen and (min-width:1000px) {
     .category-ul li a .text-box-cat h2 {
-        font-size: 26px;
+        font-size: 22px;
     }
     .category-ul li a .text-box-cat h3 {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 @media screen and (min-width:1100px) {
