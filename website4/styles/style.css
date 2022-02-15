@@ -52,7 +52,7 @@ a {
 }
 .nav-logo {
     max-width: 230px;
-    width: 100%;
+    width: 100px;
     margin: 6px auto;
 }
 
@@ -116,7 +116,7 @@ a {
 }
 .user-buttons .user-btn a h4 {
     color: #fff;
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: 1px;
 }
 .user-buttons .user-btn a img {
@@ -532,7 +532,7 @@ a {
     width: 100%;
 }
 .nav-bottom-ul li {
-    margin: 10px;
+    margin: 3px;
 }
 .nav-bottom-ul li:last-of-type {
     display: none;
@@ -1555,12 +1555,23 @@ ul li a:hover > .text-box-cat {
     .sub-d-text h2 {
         font-size: 14px;
     }
+    .nav-logo {
+        width: 100%;
+    }
     .trophy-head h2{
         font-size: 22px;
     }
     .trophy-head h3 {
         letter-spacing: 2px;
         font-size: 12px;
+    }
+    .user-buttons .user-btn a h4 {
+        color: #fff;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .nav-bottom-ul li {
+        margin: 10px;
     }
 }
 @media screen and (min-width: 600px) {
