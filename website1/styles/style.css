@@ -499,8 +499,8 @@ background-color: unset;
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 12px;
     font-weight: 700; 
-    background-color:;
     height: 50px;
     width: 100%;
 }
@@ -1635,4 +1635,17 @@ background-color: unset;
     .m-mid-nav .m-mid-nav-con .m-mid-nav-ul li a {
         overflow: hidden;
     }
+}
+
+
+@media screen and (max-width: 330px) {
+    .m-top-nav .m-top-nav-con .m-top-ul li a {
+        padding: 5px 2px;
+        font-size: 10px;
+}
+@media screen and (max-width: 260px) {
+    .m-top-nav .m-top-nav-con .m-top-ul li a {
+        padding: 5px 0px;
+        font-size: 10px;
+        font-weight: 300;
 }
