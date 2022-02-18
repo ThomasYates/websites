@@ -128,7 +128,7 @@ body {
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    margin: 30px 20px;
+    padding: 30px 20px;
 }
 .web-grid li {
     width: 100%;
@@ -206,6 +206,16 @@ body {
     font-size: 26px;
     border-top: 1px #fff solid;
     width: 100%;
+}
+.section-head-text:first-of-type {
+    padding-top: 20px;
+}
+.section-head-text {
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size: 26px;
+    color: #4b4b4b;
+    text-decoration: underline;
 }
 
 
