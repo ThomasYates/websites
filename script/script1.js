@@ -15,7 +15,7 @@ menuclicker.addEventListener("click",function(){
 
 function menushow(){
     if (up==true){
-        menu.style.maxHeight = '300px';
+        menu.style.maxHeight = '350px';
         up = false;
     } else {
         menu.style.maxHeight = '0px';
