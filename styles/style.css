@@ -218,6 +218,18 @@ body {
     text-decoration: underline;
 }
 
+.not-phishing {
+    width: 100%;
+    background-color: #ffbb00;
+    padding: 5px;
+}
+.not-phishing p {
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+}
+
 
 
 
