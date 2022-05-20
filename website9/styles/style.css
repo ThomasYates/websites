@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.flex {
+    display: flex;
+}
+.php-img {
+    width: 1000px;
+}
+
+.desktop img {
+    width: 100%;
+}
+.mobile img {
+    width: 100%;
+}
+.mobile {
+    width: 33%;
+    margin-left: 20px;
+}
+.desktop {
+    width: 66%;
+}
+a {
+    margin: 10px 0px;
+}
